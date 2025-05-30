@@ -1,0 +1,20 @@
+body {
+    margin: 0; 
+    background: black;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+#fileInput {
+    margin: 15px;
+    z-index: 10;
+}
+canvas {
+    display: block;
+    border: 1px solid white;
+}
